@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import Alamofire
+import AlamofireObjectMapper
 
 class ViewController: UIViewController {
-
+        
+    @IBOutlet weak var homeGif1: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        homeGif1.loadGif(name: "catdog")
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
 
-
+    }
+    
 }
 

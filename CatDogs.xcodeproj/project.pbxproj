@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,24 @@
 		221EA74B25361D2800BAB70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221EA74925361D2800BAB70D /* Main.storyboard */; };
 		221EA74D25361D2900BAB70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221EA74C25361D2900BAB70D /* Assets.xcassets */; };
 		221EA75025361D2900BAB70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221EA74E25361D2900BAB70D /* LaunchScreen.storyboard */; };
+		221EA75825361D8200BAB70D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EA75725361D8200BAB70D /* Models.swift */; };
+		221EA75A253623B100BAB70D /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EA759253623B100BAB70D /* Swift+Gif.swift */; };
+		221EA75C253625C500BAB70D /* catdog.gif in Resources */ = {isa = PBXBuildFile; fileRef = 221EA75B253625C500BAB70D /* catdog.gif */; };
+		221EA76425363DC600BAB70D /* CatsFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EA76325363DC600BAB70D /* CatsFactViewController.swift */; };
+		221EA76A25364CDE00BAB70D /* DogsFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EA76925364CDE00BAB70D /* DogsFactViewController.swift */; };
+		223863A3253668870031B90D /* DogImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223863A2253668870031B90D /* DogImageViewController.swift */; };
+		223863A5253668DB0031B90D /* CatImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223863A4253668DB0031B90D /* CatImageViewController.swift */; };
+		223863A7253668EB0031B90D /* CatNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223863A6253668EB0031B90D /* CatNewViewController.swift */; };
+		223863A9253668F90031B90D /* DogNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223863A8253668F90031B90D /* DogNewViewController.swift */; };
+		22DB90A225399FB5005605C3 /* dog3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22DB909E25399FB5005605C3 /* dog3.gif */; };
+		22DB90A52539A006005605C3 /* catt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22DB90A42539A005005605C3 /* catt.gif */; };
+		22FDEEA32582568E00F8C4F8 /* FindDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FDEEA22582568E00F8C4F8 /* FindDog.swift */; };
+		22FDEEA725825C9200F8C4F8 /* FindCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FDEEA625825C9200F8C4F8 /* FindCat.swift */; };
+		3C8230115E53442747EA7BE4 /* Pods_CatDogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2E4D49FD9E36A0FDA3FD04 /* Pods_CatDogs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D2E4D49FD9E36A0FDA3FD04 /* Pods_CatDogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatDogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		221EA74025361D2800BAB70D /* CatDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221EA74325361D2800BAB70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		221EA74525361D2800BAB70D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,21 @@
 		221EA74C25361D2900BAB70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221EA74F25361D2900BAB70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221EA75125361D2900BAB70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221EA75725361D8200BAB70D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		221EA759253623B100BAB70D /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		221EA75B253625C500BAB70D /* catdog.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = catdog.gif; path = ../../midtermImages/catdog.gif; sourceTree = "<group>"; };
+		221EA76325363DC600BAB70D /* CatsFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsFactViewController.swift; sourceTree = "<group>"; };
+		221EA76925364CDE00BAB70D /* DogsFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsFactViewController.swift; sourceTree = "<group>"; };
+		223863A2253668870031B90D /* DogImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageViewController.swift; sourceTree = "<group>"; };
+		223863A4253668DB0031B90D /* CatImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageViewController.swift; sourceTree = "<group>"; };
+		223863A6253668EB0031B90D /* CatNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNewViewController.swift; sourceTree = "<group>"; };
+		223863A8253668F90031B90D /* DogNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogNewViewController.swift; sourceTree = "<group>"; };
+		22DB909E25399FB5005605C3 /* dog3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = dog3.gif; path = ../../midtermImages/dog3.gif; sourceTree = "<group>"; };
+		22DB90A42539A005005605C3 /* catt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = catt.gif; path = ../../midtermImages/catt.gif; sourceTree = "<group>"; };
+		22FDEEA22582568E00F8C4F8 /* FindDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDog.swift; sourceTree = "<group>"; };
+		22FDEEA625825C9200F8C4F8 /* FindCat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCat.swift; sourceTree = "<group>"; };
+		54977D26D866EE6B1B17DEE3 /* Pods-CatDogs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatDogs.release.xcconfig"; path = "Target Support Files/Pods-CatDogs/Pods-CatDogs.release.xcconfig"; sourceTree = "<group>"; };
+		7309ED41E671AE3961B819E0 /* Pods-CatDogs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatDogs.debug.xcconfig"; path = "Target Support Files/Pods-CatDogs/Pods-CatDogs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8230115E53442747EA7BE4 /* Pods_CatDogs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				221EA74225361D2800BAB70D /* CatDogs */,
 				221EA74125361D2800BAB70D /* Products */,
+				AA7AE8D4380A46D535277017 /* Pods */,
+				874DD23E9870ACD8C20D36B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,43 @@
 			children = (
 				221EA74325361D2800BAB70D /* AppDelegate.swift */,
 				221EA74525361D2800BAB70D /* SceneDelegate.swift */,
+				22FDEEA22582568E00F8C4F8 /* FindDog.swift */,
+				22FDEEA625825C9200F8C4F8 /* FindCat.swift */,
 				221EA74725361D2800BAB70D /* ViewController.swift */,
+				223863A6253668EB0031B90D /* CatNewViewController.swift */,
+				223863A8253668F90031B90D /* DogNewViewController.swift */,
+				223863A2253668870031B90D /* DogImageViewController.swift */,
+				221EA76325363DC600BAB70D /* CatsFactViewController.swift */,
+				223863A4253668DB0031B90D /* CatImageViewController.swift */,
+				221EA76925364CDE00BAB70D /* DogsFactViewController.swift */,
+				221EA759253623B100BAB70D /* Swift+Gif.swift */,
+				221EA75725361D8200BAB70D /* Models.swift */,
+				221EA75B253625C500BAB70D /* catdog.gif */,
+				22DB90A42539A005005605C3 /* catt.gif */,
+				22DB909E25399FB5005605C3 /* dog3.gif */,
 				221EA74925361D2800BAB70D /* Main.storyboard */,
 				221EA74C25361D2900BAB70D /* Assets.xcassets */,
 				221EA74E25361D2900BAB70D /* LaunchScreen.storyboard */,
 				221EA75125361D2900BAB70D /* Info.plist */,
 			);
 			path = CatDogs;
+			sourceTree = "<group>";
+		};
+		874DD23E9870ACD8C20D36B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2E4D49FD9E36A0FDA3FD04 /* Pods_CatDogs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA7AE8D4380A46D535277017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7309ED41E671AE3961B819E0 /* Pods-CatDogs.debug.xcconfig */,
+				54977D26D866EE6B1B17DEE3 /* Pods-CatDogs.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 221EA75425361D2900BAB70D /* Build configuration list for PBXNativeTarget "CatDogs" */;
 			buildPhases = (
+				4962B49242B2D5E7EB004217 /* [CP] Check Pods Manifest.lock */,
 				221EA73C25361D2800BAB70D /* Sources */,
 				221EA73D25361D2800BAB70D /* Frameworks */,
 				221EA73E25361D2800BAB70D /* Resources */,
+				F574210756BE98158F63085C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +190,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221EA75C253625C500BAB70D /* catdog.gif in Resources */,
 				221EA75025361D2900BAB70D /* LaunchScreen.storyboard in Resources */,
+				22DB90A52539A006005605C3 /* catt.gif in Resources */,
 				221EA74D25361D2900BAB70D /* Assets.xcassets in Resources */,
+				22DB90A225399FB5005605C3 /* dog3.gif in Resources */,
 				221EA74B25361D2800BAB70D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4962B49242B2D5E7EB004217 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatDogs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F574210756BE98158F63085C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatDogs/Pods-CatDogs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatDogs/Pods-CatDogs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatDogs/Pods-CatDogs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		221EA73C25361D2800BAB70D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223863A9253668F90031B90D /* DogNewViewController.swift in Sources */,
 				221EA74825361D2800BAB70D /* ViewController.swift in Sources */,
+				221EA76425363DC600BAB70D /* CatsFactViewController.swift in Sources */,
+				22FDEEA32582568E00F8C4F8 /* FindDog.swift in Sources */,
+				223863A7253668EB0031B90D /* CatNewViewController.swift in Sources */,
 				221EA74425361D2800BAB70D /* AppDelegate.swift in Sources */,
+				223863A3253668870031B90D /* DogImageViewController.swift in Sources */,
+				22FDEEA725825C9200F8C4F8 /* FindCat.swift in Sources */,
 				221EA74625361D2800BAB70D /* SceneDelegate.swift in Sources */,
+				221EA75825361D8200BAB70D /* Models.swift in Sources */,
+				221EA76A25364CDE00BAB70D /* DogsFactViewController.swift in Sources */,
+				223863A5253668DB0031B90D /* CatImageViewController.swift in Sources */,
+				221EA75A253623B100BAB70D /* Swift+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +402,7 @@
 		};
 		221EA75525361D2900BAB70D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7309ED41E671AE3961B819E0 /* Pods-CatDogs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +420,7 @@
 		};
 		221EA75625361D2900BAB70D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54977D26D866EE6B1B17DEE3 /* Pods-CatDogs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
